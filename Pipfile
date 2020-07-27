@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipykernel = "*"
+src = {editable = true, path = "."}
+
+[packages]
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+plotly = "*"
+ipywidgets = "*"
+joblib = "*"
+sklearn = "*"
+sklearn-pandas = "*"
+category-encoders = "*"
+lightgbm = "*"
+seaborn = "*"
+imblearn = "*"
+
+[requires]
+python_version = "3.8"
